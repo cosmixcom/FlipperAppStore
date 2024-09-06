@@ -104,6 +104,7 @@ const installScreen = async app => {
 	}
 	let n = 0;
 	for(let i of applications){
+		console.log(i)
 		let appDiv = document.createElement("div");
 		appDiv.classList.add(`category_${i.category}`);
 		appDiv.style.height = "100px";
